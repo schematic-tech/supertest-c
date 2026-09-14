@@ -1,0 +1,11 @@
+{
+  "name": "schematic-supertest",
+  "version-semver": "0.1.1",
+  "description": "Authoring primitives for Schematic Supertests in C",
+  "homepage": "https://github.com/schematic-tech/supertest-c",
+  "license": "MIT OR Apache-2.0",
+  "dependencies": [
+    { "name": "vcpkg-cmake", "host": true },
+    { "name": "vcpkg-cmake-config", "host": true }
+  ]
+}

@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+/build/
+core
+core.*
+/dist/
+/test_package/build/
+/test_package/CMakeUserPresets.json
+/vcpkg_installed/
+/.tools/

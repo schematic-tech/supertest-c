@@ -1,0 +1,6 @@
+schematic-supertest provides CMake targets:
+
+    find_package(SchematicSupertest CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE schematic::supertest)
+
+Include the header with #include <schematic.h>.

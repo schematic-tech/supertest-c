@@ -24,6 +24,7 @@ jobs:
     - run: 'make test CC=gcc
 
         make clean test CC=clang'
+    - run: make -C examples/text-tools
     - run: python tests/test_cmake.py
     - run: 'python -m pip install conan==2.32.0
 
